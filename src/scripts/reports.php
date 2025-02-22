@@ -281,7 +281,7 @@ if (count($files)) {
                         $report .= '    \renewcommand{\arraystretch}{1.5}' . "\n";
                         $report .= '    \setlength{\tabcolsep}{10pt}' . "\n";
                         $report .= '    \fontsize{10}{12}\selectfont' . "\n";
-                        $report .= '    \begin{longtable}{@{}p{0.15\textwidth}p{0.15\textwidth}p{0.12\textwidth}p{0.12\textwidth}p{0.1\textwidth}@{}}' . "\n";
+                        $report .= '    \begin{longtable}{@{}p{0.15\textwidth}p{0.15\textwidth}p{0.15\textwidth}p{0.15\textwidth}p{0.1\textwidth}@{}}' . "\n";
                         $report .= '        \toprule' . "\n";
                         $report .= '        \textbf{\mytextcasesnumber} & \textbf{\mytextcasespriority} & \textbf{\mytextcasesopen} & \textbf{\mytextcasesclose} & \textbf{\mytextprodshortname} \\\\' . "\n";
                         $report .= '        \midrule' . "\n";
