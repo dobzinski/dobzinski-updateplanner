@@ -37,7 +37,7 @@ if (isset($_GET['resource'])) {
             include '../share/php/login.php';
         } else {
             alertMessage();
-            echo "<div class=\"mt-4 mb-4\"><div class=\"spinner-grow spinner-grow-sm text-primary\" role=\"status\"></div>&nbsp;&nbsp;<div class=\"spinner-grow spinner-grow-sm text-info\" role=\"status\"></div>&nbsp;&nbsp;<div class=\"spinner-grow spinner-grow-sm text-secondary\" role=\"status\"></div></div>\n";
+            echo "<div class=\"pt-4\"><div class=\"spinner-border\" role=\"status\"></div></div>\n";
         }
     }
 }
