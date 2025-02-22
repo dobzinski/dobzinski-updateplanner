@@ -112,9 +112,7 @@ http://YOUR-ADDRESS/updateplanner
 admin/admin
 ```
 
-*Use [Rancher](https://www.rancher.com/) to manage your Kubernetes clusters, it's the best!*
-
-*Have fun!*
+*Have fun and use [Rancher](https://www.rancher.com/) to manage your Kubernetes clusters, it's the best!*
 
 *:-)*
 

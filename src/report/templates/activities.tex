@@ -1,0 +1,97 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{tikz}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{longtable}
+%\usepackage{tabularx}
+
+\setmainfont[
+        Path = /var/www/html/support/report/fonts/,
+        UprightFont = Poppins-Regular.ttf,
+        BoldFont = Poppins-SemiBold.ttf,
+        ItalicFont = Poppins-Italic.ttf,
+        BoldItalicFont = Poppins-BoldItalic.ttf,
+]{}
+
+% Start variables
+\def\mycover{}
+\def\mylogo{}
+\def\mybetweendates{}
+\def\mydatetoday{}
+\def\mytextcover{}
+\def\mybrandheader{}
+\def\mytextheader{}
+\def\mylinkheader{}
+\def\mytextfooter{}
+\def\mytitle{}
+\def\mysummary{}
+\def\myspaceaftersummary{}
+\def\mytextactivity{}
+\def\mytextactivityenvironment{}
+\def\mytextactivitydescription{}
+\def\mytextactivitydate{}
+\def\mytextactivitystatus{}
+\def\mytextcases{}
+\def\mytextcasesnumber{}
+\def\mytextcasespriority{}
+\def\mytextcasesopen{}
+\def\mytextcasesclose{}
+\def\mytexttimeline{}
+\def\mytextprodshortname{}
+\def\myrgbheader{}
+\def\myrgbtitle{}
+% End variables
+
+\definecolor{myheadercolor}{rgb}{\myrgbheader}
+\definecolor{mytitlecolor}{rgb}{\myrgbtitle}
+
+\geometry{top=2.5cm, bottom=2.5cm, left=2cm, right=2cm}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{myheadercolor}{\small \mytextcover}}
+\fancyhead[R]{\textcolor{myheadercolor}{\small \mydatetoday}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\setlength{\headheight}{15pt}
+
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+  {-1ex plus -.5ex minus -.2ex}%
+  {1ex plus .2ex}%
+  {\normalfont\Large\bfseries\color{mytitlecolor}}}
+\makeatother
+
+\begin{document}
+\thispagestyle{fancy}
+\fancyfoot[C]{}
+\begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=south west, opacity=1] at (current page.south west) {
+        \includegraphics[width=\paperwidth,height=\paperheight]{\mycover}
+    };
+\end{tikzpicture}
+
+\noindent
+\parbox{\textwidth}{
+    \textbf{\fontsize{50}{60}\selectfont \mytitle}
+}
+
+\vspace{1cm}
+\noindent
+\textcolor{myheadercolor}{\Large \mybetweendates}
+
+\newpage
+
+\setcounter{page}{1}
+
+\fancyhead[L]{\textcolor{myheadercolor}{\textbf{\mybrandheader}}}
+\fancyhead[R]{\href{\mylinkheader}{\textcolor{myheadercolor}{\small \mytextheader}}}
+\fancyfoot[L]{\raisebox{-0.5ex}{\includegraphics[height=12pt]{\mylogo}} \hspace{0em} \small \mytextfooter}
+\fancyfoot[R]{\small \thepage}

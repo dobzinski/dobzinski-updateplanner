@@ -1,0 +1,52 @@
+{
+    "permission": {
+        "dashboard": {
+            "manager": "full", "operator": "full", "support": "read", "guest": "read"
+        },
+        "planning": {
+            "manager": "full", "operator": "read", "support": "read", "guest": "read"
+        },
+        "activities": {
+            "manager": "full", "operator": "full", "support": "read", "guest": "read"
+        },
+        "environments": {
+            "manager": "full", "operator": "read", "support": "read", "guest": "none"
+        },
+        "platforms": {
+            "manager": "full", "operator": "read", "support": "read", "guest": "none"
+        },
+        "kubernetes": {
+            "manager": "full", "operator": "read", "support": "read", "guest": "none"
+        },
+        "clouds": {
+            "manager": "full", "operator": "read", "support": "read", "guest": "none"
+        },
+        "clusters": {
+            "manager": "full", "operator": "read", "support": "read", "guest": "none"
+        },
+        "resources": {
+            "manager": "full", "operator": "full", "support": "read", "guest": "none"
+        },
+        "versions": {
+            "manager": "full", "operator": "full", "support": "read", "guest": "none"
+        },
+        "users": {
+            "manager": "full", "operator": "read", "support": "read", "guest": "none"
+        },
+        "products": {
+            "manager": "read", "operator": "read", "support": "full", "guest": "none"
+        },
+        "cases": {
+            "manager": "read", "operator": "read", "support": "full", "guest": "none"
+        },
+        "recurrents": {
+            "manager": "read", "operator": "read", "support": "full", "guest": "none"
+        },
+        "abstracts": {
+            "manager": "read", "operator": "read", "support": "full", "guest": "none"
+        },
+        "reports": {
+            "manager": "read", "operator": "read", "support": "full", "guest": "none"
+        }
+    }
+}
