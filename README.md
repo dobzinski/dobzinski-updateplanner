@@ -104,7 +104,14 @@ firewall-cmd --reload
 systemctl enable --now apache2
 ```
 
-12. Access your browser and try to open the Update Planner, if the Portal has been loaded, use the username and password
+12. To create async reports you need the "latexmk" command, let's install all the packages
+```
+zypper in texlive-scheme-basic
+```
+
+13. Continuing with the reports, if you have not placed the project in "/srv/www/htdocs/", pay attention to the "activities.tex" file, the "Path" value is fixed to load fonts, and in the "updateplanner/etc/var.php" file more paths were defined in the "$_report" variables for the "cover.png" and "logo.png" files, so replace these images with those of your company.
+
+14. Access your browser and try to open the Update Planner, if the Portal has been loaded, use the username and password
 ```
 http://YOUR-ADDRESS/updateplanner
 admin/admin
@@ -171,7 +178,7 @@ define('PRJ_LDAP_GROUP_NAME', 'scientists');
 define('PRJ_LDAP_GROUPS_BASE_DN', 'dc=example,dc=com');
 ```
 
-After entering Ldap data, enable Ldap feature in the configuration file
+After entering Ldap data, enable Ldap feature in the variables file
 ```
 vi /srv/www/htdocs/updateplanner/etc/var.php
 ```
