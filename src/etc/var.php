@@ -125,8 +125,8 @@ $_themes = array(
 );
 
 $_report = array(
-    'cover'=>'/var/www/html/support/report/images/cover.png',
-    'logo'=>'/var/www/html/support/report/images/logo.png',
+    'cover'=>'/srv/www/htdocs/updateplanner/report/images/cover.png',
+    'logo'=>'/srv/www/htdocs/updateplanner/report/images/logo.png',
     'betweendates'=>'to',
     'dateformat'=>'Y-m-d',
     'textcover'=>'Business Paper',
