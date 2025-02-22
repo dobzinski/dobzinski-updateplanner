@@ -31,9 +31,7 @@ This project is using:
 ## Screenshots
 
 Check out some of the features available!
-![Dashboard](images/dashboard.jpg)
-![Dashboard](images/planning.jpg)
-![Dashboard](images/activities.jpg)
+![Dashboard](images/screens.gif)
 
 
 ## Install
