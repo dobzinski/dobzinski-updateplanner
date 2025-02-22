@@ -9,6 +9,8 @@ A tool for plan updates to environments and kubernetes clusters, with dark or li
 
 If you want to plan your environment upgrade activities, this tool will help you. Get a dashboard with graphs of completed schedules, a large calendar for scheduling, and use the activity items for more details on the schedules.
 
+You will have a crawler to connect to GitHub to check that the latest version has been published of the Project you are using
+
 Use it to enhance your support and add more value with activity reports for delivery to your Customer.
 
 This project is using:
