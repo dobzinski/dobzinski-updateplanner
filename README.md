@@ -36,7 +36,7 @@ Check out some of the features available!
 ![Dashboard](images/activities.jpg)
 
 
-# Install
+## Install
 
 I recommend to use Linux OpenSuse Leap 15.6, and let's follow these steps with root.
 
@@ -112,12 +112,11 @@ http://YOUR-ADDRESS/updateplanner
 admin/admin
 ```
 
+*Use [Rancher](https://www.rancher.com/) to manage your Kubernetes clusters, it's the best!*
+
 *Have fun!*
 
 *:-)*
-
-
-# Configurations
 
 ## Variables
 
