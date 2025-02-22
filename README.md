@@ -9,7 +9,7 @@ A tool for plan updates to environments and kubernetes clusters, with dark or li
 
 If you want to plan your environment upgrade activities, this tool will help you. Get a dashboard with graphs of completed schedules, a large calendar for scheduling, and use the activity items for more details on the schedules.
 
-If you want to plan your environment upgrade activities, this tool will help you. Get a dashboard with graphs of completed schedules, a large calendar for scheduling, and use the activity items for more details on the schedules.
+Use it to enhance your support and add more value with activity reports for delivery to your Customer.
 
 This project is using:
 
@@ -30,7 +30,7 @@ This project is using:
 
 ## Screenshots
 
-Check out some of the features!
+Check out some of the features available!
 ![Dashboard](images/dashboard.jpg)
 ![Dashboard](images/planning.jpg)
 ![Dashboard](images/activities.jpg)
