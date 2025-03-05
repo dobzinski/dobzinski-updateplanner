@@ -185,6 +185,12 @@
                 </a>
               </li>
               <li>
+                <a class="icon-link mb-1" href="https://github.com/SupportTools/rancher-upgrade-tool" target="_blank">
+                  <svg class="bi bulleted-list mt-2" width="16" height="16"><path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2"/></svg>
+                  Rancher Upgrade Tool
+                </a>
+              </li>
+              <li>
                 <a class="icon-link mb-1" href="https://github.com/rancherlabs/support-tools/tree/master/collection/rancher/v2.x/logs-collector" target="_blank">
                   <svg class="bi bulleted-list mt-2" width="16" height="16"><path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2"/></svg>
                   Logs Collector
