@@ -5,7 +5,8 @@ require __DIR__ .'/../etc/function.php';
 require __DIR__ .'/../etc/conn_open.php';
 require __DIR__ .'/../etc/var.php';
 
-$linebreak = "\r\n";
+//$linebreak = "\r\n";
+//$linebreak = "\n";
 $files = array();
 getReports(__DIR__ .'/../report/queue');
 if (count($files)) {
@@ -140,7 +141,8 @@ if (count($files)) {
                     if (is_file($template)) {
                         $content = file_get_contents($template);
                         if (!empty($content)) {
-                            $rows = explode($linebreak, $content);
+                            //$rows = explode($linebreak, $content);
+                            $rows = preg_split('/\r\n|\r|\n/', $content);
                             if (count($rows)) {
                                 $replacing = false;
                                 foreach($rows as $r) {
